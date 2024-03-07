@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+
+* {
+    padding: 0 0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    margin:  20px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botoes_inicio {
+    display: flex;
+}
+
+.bem__vindo {
+    font-size: 46px;
+    font-family: "Covered By Your Grace", cursive;
+}
+
+.btn-novaConta {
+    margin: 20px 20px;
+    font-family: "Angkor", serif;
+    width: 234px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFDE33;
+    border-radius: 2%;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    transition: .4s;
+}
+
+.btn-novaConta:hover{
+    transform: scale(1.2);
+}
+
+.btn-minhasContas {
+    margin: 20px 20px;
+    font-family: "Angkor", serif;
+    width: 234px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    border-radius: 2%;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: .4s;
+}
+
+.btn-minhasContas:hover{
+    transform: scale(1.2);
+}
+
+footer {
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p:nth-child(1) {
+    color: black;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+    font-family: "Angkor", serif;
+}
+.social-end {
+    display: flex;
+
+}
+.social-end a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFDE33;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 22px 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .3s;
+
+}
+.social-end a:hover {
+    transform: scale(1.3);
+}
+
+.end {
+    color: black;
+    bottom: 35px;
+    font-size: 14px;
+    font-family: "Angkor", serif;    
+}
